@@ -6,7 +6,7 @@ class Num(val value: Int) : Expr
 
 class Sum(val left: Expr, val right: Expr) :Expr
 
-fun eval(e: Expr): Int {
+private fun eval(e: Expr): Int {
     if (e is Num) {
         val n = e as Num
         return n.value
