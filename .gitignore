@@ -24,6 +24,4 @@
 hs_err_pid*
 
 .idea/
-.idea/inspectionProfiles/
-.idea/workspace.xml
-out/production/Kotlin_In_Action/META-INF/
+out/
