@@ -26,8 +26,8 @@ fun main() {
 
     // 使用maxBy
     // 可以简写成下面的
-//    val person2 = list.maxBy({ p: Person4 -> p.age })
+//    val person2 = list.maxBy({ p: Person -> p.age })
     val person = list.maxBy { it.age }
-//    val person1 = list.maxBy(Person4::age)
+//    val person1 = list.maxBy(Person::age)
     println(person)
 }
