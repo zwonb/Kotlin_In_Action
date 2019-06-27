@@ -1,7 +1,7 @@
 package yidont.kotlin.ch09
 
 /**
- * 为二个类型参数指定多个约束
+ * 为一个类型参数指定多个约束
  *
  * @author zwonb
  * @date 2019/6/27
