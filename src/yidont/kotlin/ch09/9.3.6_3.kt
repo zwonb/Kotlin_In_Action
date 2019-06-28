@@ -15,6 +15,9 @@ object Validators {
         validators[kClass] = fieldValidator
     }
 
+    /**
+     * 把不安全的验证在内部实现，让调用的更安全
+     */
     @Suppress("unchecked_cast")
     operator fun <T : Any> get(kClass: KClass<T>): FieldValidator<T> =
             validators[kClass] as? FieldValidator<T>
