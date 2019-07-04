@@ -40,6 +40,15 @@ fun createTable() = table {
     }
 }
 
+fun createAnotherTable() = table {
+    for (i in 1..2) {
+        tr {
+            td {
+            }
+        }
+    }
+}
+
 fun main() {
     println(createTable())
 }
